@@ -7,6 +7,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [posts, setPosts] = useState([]);
 
+  //WE ALWAYS FETCH DATA LIKE THIS FROM A URL
   async function fetchProductData() {
     setLoading(true);
 
